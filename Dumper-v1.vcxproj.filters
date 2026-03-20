@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3c041131-c500-4362-9cf4-757bbff5d125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scanner">
+      <UniqueIdentifier>{2aa89666-5945-416e-b5c6-09b699856b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Validator">
+      <UniqueIdentifier>{767df691-9287-400d-b696-64809aa9007f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\dumper">
+      <UniqueIdentifier>{55253d75-e96d-41c5-8398-329cd7ed2285}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Memoryscanner.cpp">
+      <Filter>Source\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternValidator.cpp">
+      <Filter>Source\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetDumper.cpp">
+      <Filter>Source\dumper</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryScanner.h">
+      <Filter>Source\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternValidator.h">
+      <Filter>Source\Validator</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetDumper.h">
+      <Filter>Source\dumper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
